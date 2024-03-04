@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+@keyframes flameStart {
+    0% {}
+    100% {-webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00; 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00;}
+}
+
+@keyframes flamesAnime {
+    0% {-webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00; 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00;}
+    50% {-webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FF2512; 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FF2512;}    
+100% {-webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00; 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00;}
+}
+
+@keyframes greenAnime {
+    0% {}
+    30% {-webkit-box-shadow: inset 0px 0px 20px 15px #26FF00, 0px 0px 20px 6px #26FF00; 
+box-shadow: inset 0px 0px 20px 15px #26FF00, 0px 0px 20px 6px #26FF00;}
+    100% {}
+
+}
+
+@keyframes greenIncome {
+    0% {background-color: blue; transform: translate(0px, -1000px);}
+    100% {background-color: #39FF14;}
+}
+
+@keyframes rotate {
+    /* 50% {transform: rotateX(90deg);} */
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes shake {
+    0% {transform: translate(5px, 0px);}
+    20% {transform: translate(-5px, 0px);}
+    40% {transform: translate(0px, 5px);}
+    60% {transform: translate(5px, 5px);}
+    80% {transform: translate(0px, 0px);}
+    100% {transform: translate(5px, -5px);}
+}
+
+.fire {
+    
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00; 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -50px 31px 9px #FFBF00;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+}
+
+.letters {
+color: #FFFFFF;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #104DCE, 0 0 30px #104DCE, 0 0 40px #104DCE, 0 0 55px #104DCE, 0 0 75px #104DCE;
+background: #1f51ff;
+}
+
+.sep {
+    border-color: white;
+    box-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+#popUp {
+    box-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff1100 0px 0px 20px, #ff1100 0px 0px 30px, #ff1100 0px 0px 40px, #ff1100 0px 0px 50px, #ff1100 0px 0px 75px;
+    /* animation-name: shake; */
+    animation-duration: .1s;
+    /* animation-iteration-count: infinite; */
+}
+        </style>
+        <script src = "Scripts/App.js" defer></script>
+        <script src = "Scripts/GUI.js" defer></script>
+    </head>
+    <body>
+    </body>
+</html>
